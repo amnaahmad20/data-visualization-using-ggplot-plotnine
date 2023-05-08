@@ -1,1 +1,8 @@
-
+name: "My First GitHub Action"
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Step 1"
+      run: echo "commit done succesfully!"
